@@ -5,17 +5,19 @@ layout: default
 <div class="container-fluid">
   <div class="row content">
     
-    <div class="col-xs-12 col-sm-6 col-lg-8">
-	<br><br><br><br>
+    <div class="col-sm-12">
+	
       <h4><small>RECENT POSTS</small></h4>
       <hr>
+	  {% for post in site.posts %}
 	  <div class="well">
-      <h2>{{ page.title }}</h2>
-      <h5><span class="glyphicon glyphicon-time"></span><span>{{ post.date }}</span></h5>
+      <h2>{{ post.title }}</h2>
+      <h5><span class="glyphicon glyphicon-time"></span>{{ post.date }}</h5>
       <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
       <p>{{ content }}</p>
       <br><br>
 	  </div>
+	  {% endfor %}
 	  </div>
 	  </div>
 	  </div>
