@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div class="container-fluid">
+<div class="container">
   <div class="row content">
     
     <div class="col-sm-9">
-	<br><br>
+	<br><br><br><br>
       <h4><small>RECENT POSTS</small></h4>
       <hr>
       <h2>{{ page.title }}</h2>
-      <h5><span class="glyphicon glyphicon-time"></span><span>{{ post.date | date_to_string }}</span></h5>
+      <h5><span class="glyphicon glyphicon-time"></span><span>{{ post.date}}</span></h5>
       <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
       <p>{{ content }}</p>
       <br><br>
