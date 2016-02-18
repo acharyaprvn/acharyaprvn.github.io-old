@@ -2,6 +2,26 @@
 layout: default
 title: Praveen Acharya
 ---
+div class="container-fluid">
+  <div class="row content">
+    
+    <div class="col-sm-12">
+	
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+	  {% for post in site.posts %}
+	  <div class="well">
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <h5><span class="glyphicon glyphicon-time"></span>{{ post.date | date_to_string }}</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <p>{{ content }}</p>
+      <br><br>
+	  </div>
+	  {% endfor %}
+	  </div>
+	  </div>
+	  </div>
+
 <ul class="posts">
 
 	  {% for post in site.posts %}
