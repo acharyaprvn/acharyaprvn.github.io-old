@@ -15,7 +15,7 @@
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #000 !important;
-      background-color: red !important;
+      background-color: #ba0000 !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -23,7 +23,7 @@
 	  }
 .open .dropdown-toggle {
     color: #333 ;
-    background-color: red !important;
+    background-color: #ba0000 !important;
 }
 .dropdown-menu li a {
     background-color: #333 !important;
@@ -32,7 +32,7 @@
 
 
 .dropdown-menu li a:hover {
-    background-color: red !important;
+    background-color: #ba0000 !important;
 }
 
 .container{
@@ -48,7 +48,7 @@ footer {
 	color: #ffffff;
 	 width: 100%;
      bottom: 0;
-	position: fixed;
+	position: absolute;
 }
 footer .glyphicon {
     font-size: 20px;
