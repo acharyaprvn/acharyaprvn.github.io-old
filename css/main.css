@@ -35,6 +35,21 @@
     background-color: #ba0000 !important;
 }
 
+*{
+margin :0;
+}
+
+html, body {
+height : 100%;
+}
+
+.wrapper{
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -10em;
+}
+
 .container{
 padding-bottom: 10px;
 padding-top:10px;
@@ -46,9 +61,10 @@ padding-top:10px;
 footer {
     background-color: #333;
 	color: #ffffff;
-	 width: 100%;
-     bottom: 0;
-	position: absolute;
+	height: 10em;
+}
+.push{
+height: 10em;
 }
 footer .glyphicon {
     font-size: 20px;
