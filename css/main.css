@@ -9,6 +9,10 @@
       letter-spacing: 4px;
       border-radius: 0;
   }
+  .navbar-brand{
+ font-family: 'Graduate', cursive;
+  font-size: 35px !important;
+  }
   
    .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
