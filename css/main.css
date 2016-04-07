@@ -39,20 +39,7 @@
     background-color: #ba0000 !important;
 }
 
-*{
-margin :0;
-}
 
-html, body {
-height : 100%;
-}
-
-.wrapper{
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto 0;
-}
 
 .container{
 padding-bottom: 10px;
@@ -114,7 +101,4 @@ padding-top: 10px;
 }
 .social .fa-rss:hover { /* round rss icon*/
     background: #e88845;
-}
-.push{
-height: 0;
 }
