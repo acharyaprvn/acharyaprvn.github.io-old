@@ -9,6 +9,10 @@
       letter-spacing: 4px;
       border-radius: 0;
   }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
   .navbar-brand{
  font-family: 'Graduate', cursive;
   font-size: 24px !important;
