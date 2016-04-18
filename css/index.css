@@ -1,24 +1,19 @@
 
-#resume h3 span {
+.content_wrapper{
+padding-top: 200px;
+padding-bottom: 145px;	
+}
+#resume h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
-#resume  strong {
-      font-size: 20px !important;
-	  font-family: opensans-bold, sans-serif;
-	  
+
+html{
+    background: url(index_bg.jpg) no-repeat center fixed; 
+    background-size: cover;
+	background-color: #11ABB0;
 
 }
-#resume em{
-      font-size: 15px !important;
-	  font-family: librebaskerville-italic, serif;
-}
-
-.content_wrapper {
-padding-top: 70px;
-padding-bottom: 70px;
-}
-
 
 .navbar{
       margin-bottom: 0;
