@@ -63,7 +63,9 @@ body::after {
 }
 
 
-
+#resume{
+padding-top: 100px;
+}
 #resume h3 span {
     border-bottom: 3px solid ##ba0000;
     padding-bottom: 6px;
