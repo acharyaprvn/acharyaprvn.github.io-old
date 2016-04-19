@@ -62,10 +62,7 @@ body::after {
     -webkit-filter: grayscale(1); /* Old WebKit */  
 }
 
-.row_banner{
-padding-top: 200px;
-padding-bottom: 145px;	
-}
+
 
 #resume h3 span {
     border-bottom: 3px solid ##ba0000;
