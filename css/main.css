@@ -36,9 +36,11 @@ border-bottom: 1px solid #333;
 
 }
 body {
+
     position: relative;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 body::after {
@@ -62,7 +64,17 @@ body::after {
     -webkit-filter: grayscale(1); /* Old WebKit */  
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  display: flex;
+  align-items: center;
+}
+#about_page
+{
+padding-top: 130px;
+}
 #resume{
 padding-top: 25px;
 }
