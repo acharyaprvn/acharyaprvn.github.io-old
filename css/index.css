@@ -41,30 +41,15 @@ border-bottom: 1px solid #333;
     padding-bottom: 6px;
 }
 body {
-    position: relative;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+	background: url('../index_bgA.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-body::after {
-  content: "";
-  background: url('../index_bg.jpg');
-  background-size: cover;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;  
-    filter: grayscale(100%); /* Current draft standard */
-    -webkit-filter: grayscale(100%); /* New WebKit */
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%); 
-    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */ 
-    filter: url(resources.svg#desaturate); /* Gecko */
-    filter: gray; /* IE */
-    -webkit-filter: grayscale(1); /* Old WebKit */  
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+	
+
 }
 
 .navbar{
