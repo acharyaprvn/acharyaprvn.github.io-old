@@ -1,16 +1,12 @@
 
-.banner-text{
-text-align: center;
- vertical-align: middle;
- }
+
 .content_wrapper{
 padding-top: 200px;
 padding-bottom: 145px;	
 }
 hr{
 border-bottom: 1px solid #333;
-margin-left: 200px;
-margin-right: 200px;
+
 
 }
 #resume h1 span {
@@ -111,9 +107,9 @@ footer a{
 .col-sm-4 p{
 padding-top: 10px;
 }
-.social a {
+.social {
     margin: 0;
-    padding: 7px;
+    padding: 0;
 }
 
 
