@@ -62,6 +62,8 @@ body {
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
+ 	  border-bottom: 4px solid #11ABB0;
+
   }
   .navbar-nav {
     width: 100%;
