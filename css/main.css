@@ -47,12 +47,13 @@ body {
 
 }
 #about_page{
-padding-top: 40px;
+padding-top: 50px;
 padding-bottom: 50px;
 }
 #about_page p{
-font-size: 20px !important;
+font-size: 20px;
 	  font-family: opensans-bold, sans-serif;
+	  line-height: 30px;
 }
 
 
@@ -63,16 +64,44 @@ padding-bottom: 25px;
 #resume h3 span {
     border-bottom: 3px solid #ba0000 ;
     padding-bottom: 6px;
+	font-family:'opensans-bold', sans-serif;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+#resume p span {
+   margin-right: 5px;
+    margin-left: 5px;
+	font-size: 25px;
+	color: #6E7881;
+}
+#resume .cv_content {
+
+ line-height: 30px;
+
+}
+#resume .date{
+
+font-size: 15px;
+   
+    font-family: opensans-regular, sans-serif;
 }
 #resume  strong {
-      font-size: 20px !important;
-	  font-family: opensans-bold, sans-serif;
+      font-size: 20px;
+	  font-family: 'opensans-bold', sans-serif;
 	  
 
 }
 #resume em{
-      font-size: 25px !important;
-	  font-family: librebaskerville-italic, serif;
+     
+    font-size: 18px;
+    line-height: 24px;
+    font-family: librebaskerville-italic, serif;
+}
+
+#resume  p{
+font-family: 'opensans-regular', sans-serif;
+font-size: 15px;
+    line-height: 30px;
 }
 .container{
 
